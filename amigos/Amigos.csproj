@@ -18,7 +18,8 @@
     <Resource Include="imagens\Lua.jpeg" />
     <Resource Include="imagens\JK.png" />
     <Resource Include="imagens\Thais.jpg" />
-	
+	<Resource Include="imagens\Pedro.png" />
+	<Resource Include="imagens\Puck.png"/>
   </ItemGroup>
 
 </Project>

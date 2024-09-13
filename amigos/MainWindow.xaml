@@ -22,36 +22,37 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <Image x:Name="foto1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
-            <Image x:Name="foto2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80" >
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
-            <Image x:Name="foto3" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
-            <Image x:Name="foto4" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
-            <Image x:Name="foto5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
-            <Image x:Name="foto6" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
-                <Image.Clip>
-                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
-                </Image.Clip>
-            </Image>
+            <Ellipse Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto1"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto2"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto3"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto4"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto5"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name= "foto6"/>
+                </Ellipse.Fill>
+            </Ellipse>
+
             <Label x:Name="labelNome1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
             <Label x:Name="labelNome2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
             <Label x:Name="labelNome3" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
