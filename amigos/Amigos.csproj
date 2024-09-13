@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="826ef0d6-2ce4-492d-970f-2185cfe67bff.jpeg" />
+    <None Remove="Captura de tela 2024-04-07 022153.png" />
+    <None Remove="Imagem do WhatsApp de 2024-08-29 à%28s%29 15.50.31_5caf1f98.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imagens\Lua.jpeg" />
+    <Resource Include="imagens\JK.png" />
+    <Resource Include="imagens\Thais.jpg" />
+	
+  </ItemGroup>
+
+</Project>

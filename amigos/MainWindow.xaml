@@ -1,0 +1,75 @@
+﻿<Window x:Class="Amigos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Amigos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="GridPrincipal">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="436,137,26,27">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="112.667" />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Image x:Name="foto1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10"  Width="80">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Image x:Name="foto2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80" >
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Image x:Name="foto3" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Image x:Name="foto4" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Image x:Name="foto5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Image x:Name="foto6" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Height="80" Margin="10,10,10,10" Width="80">
+                <Image.Clip>
+                    <EllipseGeometry Center="40,40" RadiusX="40" RadiusY="40"/>
+                </Image.Clip>
+            </Image>
+            <Label x:Name="labelNome1" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Label x:Name="labelNome2" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Label x:Name="labelNome3" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Label x:Name="labelNome4" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Label x:Name="labelNome5" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Label x:Name="labelNome6" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,5" RenderTransformOrigin="1.215,8.853"/>
+            <Button x:Name="BotaoBuscarAmigos" Content="Amigos" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="35" Margin="-4,-79,0,0" VerticalAlignment="Top" Width="326" BorderBrush="#FF05204A" Foreground="#FFF1EAEA" Background="#FF05204A" FontSize="22" RenderTransformOrigin="0,0" Click="BotaoBuscarAmigos_Click"/>
+        </Grid>
+        <Grid x:Name="areaDeAmigos" Margin="0,0,369,0"  >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="328*"/>
+                <RowDefinition Height="207*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+        <Border BorderBrush="Black" BorderThickness="1">
+            <Button x:Name="botaoPerfil" Content="Pedro" HorizontalAlignment="Left" Height="39" Margin="62,77,0,0" VerticalAlignment="Top" Width="112" Click="botaoPerfil_Click"/>
+        </Border>
+
+
+    </Grid>
+</Window>
